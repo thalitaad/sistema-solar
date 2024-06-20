@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+     background-image: linear-gradient(to bottom, #F29F05, #8ABFB0, #0F2226); /* fundo gradiente */
+}
+
+header {
+    text-align: center; /* alinha o texto */
+    color: #0F2226; /* dar cor ao texto */
+}
+
+#article {
+    background-color: rgba(255, 255, 255, 0.247); /* cor de fundo */
+    border-radius: 10px; /* arredondamento da borda */
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.300); /* sombreado ao redor da borda */
+    padding: 10px; /* espaçamento entre as caixas */
+    width: 800px; /* tamanho da caixa */
+    margin: auto; /* centraliza a caixa */
+    text-align: justify; /* alinha o texto */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff8f;
+}
