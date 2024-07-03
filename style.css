@@ -14,8 +14,6 @@ header h1 {
     font-family: "Play", sans-serif;
     font-weight: 700;
     font-style: normal;
-    padding: 10px;
-    margin: auto;
 }
 
 header p {
@@ -33,12 +31,17 @@ main h2 {
     font-family: "Play", sans-serif;
     font-weight: 700;
     font-style: normal;
+
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 main p {
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    margin-top: 0;
 }
 
 #article {
@@ -49,14 +52,26 @@ main p {
     width: 800px; /* tamanho da caixa */
     margin: auto; /* centraliza a caixa */
     text-align: justify; /* alinha o texto */
+
+    overflow: hidden; /* garante que o article inclua os elementos flutuantes */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100px;
+
+    float: left; /* az a imagem flutuar à esquerda */
+    margin-right: 20px;
+    padding-top: 15px;
 }
 
 footer {
     font-family: "Play", sans-serif;
-    font-weight: 400;
     font-style: normal;
+    font-size: 0.8em;
 
     text-align: center;
-    margin-top: 20px;
+    margin: 15px;
     color: #ffffff8f;
 }
